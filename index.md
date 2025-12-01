@@ -5,7 +5,7 @@ hide: true
 show_reading_time: false
 ---
 
-Hi! My name is Joshika Pochimireddy 
+Hi! My name is Joshika Pochimireddy. I'm really excited to learn about Computer Science and Software Engineering this trimester. 
 
 ### Development Environment
 
