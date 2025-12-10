@@ -2,7 +2,7 @@
 toc: False
 layout: post
 title: Github Pages Blog 
-description: A key to learning in this class is understanding how to make a Github Pages project. This guide will set up and run the project. Ultimately, you will have a student website that can be used for blogging, classroom learning, and tracking progress. 
+description: A key to learning in this class is understanding how to make a Github Pages project. This guide will set up an∂ run the project. Ultimately, you will have a student website that can be used for blogging, classroom learning, and tracking progress. 
 author: Joshika Pochimireddy
 permalink: /tools/experience  
 ---
