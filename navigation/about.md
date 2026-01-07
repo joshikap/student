@@ -112,6 +112,7 @@ Everything for me, as for many others, revolves around family and faith.
 
 Hindu culture is ancient and diverse, centered around values like dharma (doing what’s right), karma (actions have consequences), ahimsa (non-violence), and balance in life. It includes many traditions, languages, and ways of practicing, but family, respect for elders, and community are common themes. Festivals such as Diwali, Holi, Navratri, and Raksha Bandhan celebrate light over darkness, joy, devotion, and family bonds. Practices like yoga, meditation, prayer, and vegetarian food connect mind, body, and spirit. Hindu stories, music, dance, and symbols teach lessons about courage, kindness, and self-understanding. For many Hindu teens, especially in places like California, the culture is a blend of tradition at home and modern life outside, creating a strong and unique identity.
 
+<script>
 // Clear the output
 outputElement.innerHTML = '';
 
@@ -174,3 +175,4 @@ for (const location of living_in_the_world) {
 
 // Add containter to output 
 outputElement.appendChild(container);
+</script>
