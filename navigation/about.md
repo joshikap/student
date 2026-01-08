@@ -114,33 +114,44 @@ Everything for me, as for many others, revolves around family and faith.
 
 Hindu culture is ancient and diverse, centered around values like dharma (doing what’s right), karma (actions have consequences), ahimsa (non-violence), and balance in life. It includes many traditions, languages, and ways of practicing, but family, respect for elders, and community are common themes. Festivals such as Diwali, Holi, Navratri, and Raksha Bandhan celebrate light over darkness, joy, devotion, and family bonds. Practices like yoga, meditation, prayer, and vegetarian food connect mind, body, and spirit. Hindu stories, music, dance, and symbols teach lessons about courage, kindness, and self-understanding. For many Hindu teens, especially in places like California, the culture is a blend of tradition at home and modern life outside, creating a strong and unique identity.
 
+
+### Favorite desserts 
+
+<div id="grid_container2"></div>
+
+
+
 <script>
+    var outputElement = document.getElementById
+    ("grid_container2");
+
 // Clear the output
 outputElement.innerHTML = '';
 
 // Data array
-const living_in_the_world = [
+const favorites = [
   {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Classic_Italian_Tiramisu-3_%2829989504485%29.jpg/640px-Classic_Italian_Tiramisu-3_%2829989504485%29.jpg", description: "Tiramisu is my favorite cake."},
   {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/French_macaroons.jpg/640px-French_macaroons.jpg", description: "Macarons are my faborite cookie."},
   {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Croissants_au_beurre_%2818953292873%29.jpg/640px-Croissants_au_beurre_%2818953292873%29.jpg", description: "Croissants are my favorite type of pasteries."},
   {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Chocolate_ice_cream_%282009-01-07%29.jpg/640px-Chocolate_ice_cream_%282009-01-07%29.jpg", description: "Chocolate is my favorite flavor of ice cream."}
 ];
 
-// Create a div container with id
-const container = document.createElement('div');
-container.id = 'grid_container';
 
-// Style the container 
-container.style.border = '2px solid';
-container.style.padding = '10px';
+// Create a div container2 with id
+const container2 = document.createElement('div');
+container2.id = 'grid_container';
+
+// Style the container2
+containe2.style.border = '2px solid';
+container2.style.padding = '10px';
 
 // Grid specific styles
-container.style.display = 'grid';
-container.style.gridTemplateColumns = 'repeat(auto-fill, minmax(150px, 1fr))';
-container.style.gap = '10px';
+container2.style.display = 'grid';
+container2.style.gridTemplateColumns = 'repeat(auto-fill, minmax(150px, 1fr))';
+container2.style.gap = '10px';
 
 // Loop through data and create grid items
-for (const location of living_in_the_world) {
+for (const location of favorites) {
   // Create grid item
   const gridItem = document.createElement('div');
   gridItem.style.textAlign = 'center';
@@ -171,12 +182,12 @@ for (const location of living_in_the_world) {
   gridItem.appendChild(description);
   gridItem.appendChild(greeting);
   
-  // Add grid item to container
-  container.appendChild(gridItem);
+  // Add grid item to container2
+  container2.appendChild(gridItem);
 }
 
 // Add containter to output 
-outputElement.appendChild(container);
+outputElement.appendChild(container2);
 
 </script>
 
