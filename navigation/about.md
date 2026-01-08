@@ -142,7 +142,7 @@ const container2 = document.createElement('div');
 container2.id = 'grid_container';
 
 // Style the container2
-containe2.style.border = '2px solid';
+container2.style.border = '2px solid';
 container2.style.padding = '10px';
 
 // Grid specific styles
