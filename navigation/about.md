@@ -53,6 +53,8 @@ Flags are made using Wikipedia images
     <!-- content will be added here by JavaScript -->
 </div>
 
+
+
 <script>
     // 1. Make a connection to the HTML container defined in the HTML div
     var container = document.getElementById("grid_container"); // This container connects to the HTML div
@@ -175,4 +177,8 @@ for (const location of living_in_the_world) {
 
 // Add containter to output 
 outputElement.appendChild(container);
+
 </script>
+
+
+
